@@ -28,10 +28,10 @@ export const TableDetails = styled.div`
 	color: ${(props) => (props.active ? "#00a857" : "#ffffff")};
 	width: 25%;
 	height: 5rem;
-	border-top-left-radius: ${(props) => props.firstStart && "10px"};
-	border-top-right-radius: ${(props) => props.firstEnd && "10px"};
-	border-bottom-left-radius: ${(props) => props.lastStart && "10px"};
-	border-bottom-right-radius: ${(props) => props.lastEnd && "10px"};
+	// border-top-left-radius: ${(props) => props.firstStart && "10px"};
+	// border-top-right-radius: ${(props) => props.firstEnd && "10px"};
+	// border-bottom-left-radius: ${(props) => props.lastStart && "10px"};
+	// border-bottom-right-radius: ${(props) => props.lastEnd && "10px"};
 	display: ${(props) => props.flex && "flex"};
 	padding: 1rem;
 `;

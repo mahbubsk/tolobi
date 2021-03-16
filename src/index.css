@@ -31,7 +31,7 @@ body {
 
 .svg-even {
 	position: absolute;
-	margin-left: 27%;
+	margin-left: 26%;
 }
 .svg-even circle {
 	height: 100%;
@@ -49,7 +49,7 @@ body {
 
 .svg-odd {
 	position: absolute;
-	margin-left: 27%;
+	margin-left: 26%;
 }
 .svg-odd circle {
 	height: 100%;

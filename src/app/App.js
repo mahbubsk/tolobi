@@ -1,6 +1,6 @@
-import Hero from '../sections/hero'
-
 import { images } from '../assets'
+
+import Hero from '../sections/hero'
 import Features from '../sections/features';
 import PricingTable from '../sections/pricing-table';
 import Timeline from '../sections/timeline';
