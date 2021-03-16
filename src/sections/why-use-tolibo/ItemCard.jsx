@@ -1,12 +1,19 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-	width: 24%;
-	height: 13.125rem;
-	background-color: #ffffff;
-	border-radius: 6px;
-	text-align: center;
-	padding: 1rem;
+	&{
+		width: 24%;
+		height: 13.125rem;
+		background-color: #ffffff;
+		border-radius: 6px;
+		text-align: center;
+		padding: 1rem;
+	}
+	@media (max-width: 768px) {
+        & {
+            height: 15.125rem;
+        }
+    }
 `;
 
 const Image = styled.img`
